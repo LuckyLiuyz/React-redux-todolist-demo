@@ -10,7 +10,7 @@ const todo = (state, action) => {
             if (state.id !== action.id) {
                 return state
             }
-            return Object.assign({}, state, {completed: !state.completed});
+            return Object.assign({}, state, { completed: !state.completed });
         default:
             return state
     }
@@ -28,5 +28,6 @@ const todos = (state = [], action) => {
             return state
     }
 };
-export default todos
+
+export default todos;
 

@@ -1,12 +1,26 @@
+/**
+ * @file action 生成器
+ * @description 
+ */
+
 let nextTodoId = 0;
 export const addTodo = (text) => ({
     type: 'ADD_TODO',
     id: nextTodoId++,
-    text
+    text,
 });
 
-export const setVisibilityFilter = (filter) => ({type: 'SET_VISIBILITY_FILTER', filter});
+export const setVisibilityFilter = (filter) => ({
+    type: 'SET_VISIBILITY_FILTER',
+    filter,
+});
 
-export const toggleTodo = (id) => ({type: 'TOGGLE_TODO', id});
+export const toggleTodo = (id) => ({
+    type: 'TOGGLE_TODO',
+    id,
+});
 
-export const deleteTodo = (id) => ({type: 'DELETE_TODO', id});
+export const deleteTodo = (id) => ({
+    type: 'DELETE_TODO',
+    id,
+}); 

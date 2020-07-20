@@ -1,8 +1,10 @@
 /**
- * Created by 0easy-23 on 2017/8/15.
+ * @file 状态过滤 容器
+ * @description 
  */
-import {connect } from 'react-redux';
-import {setVisibilityFilter} from '../actions/index';
+
+import { connect } from 'react-redux';
+import { setVisibilityFilter } from '../actions/index';
 import Link from '../components/Link';
 
 const mapStateToProps = (state, ownProps) => ({

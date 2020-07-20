@@ -1,6 +1,8 @@
 /**
- * Created by 0easy-23 on 2017/8/15.
+ * @file AddTodo 容器
+ * @description 
  */
-import {connect} from 'react-redux';
+
+import { connect } from 'react-redux';
 import AddTodo from '../components/AddTodo';
-export default connect()(AddTodo);
+export default connect()(AddTodo); 
