@@ -1,5 +1,5 @@
-## React-redux todoList
 
+# React-redux-todolist-demo
 探索 React + React-redux 开发 demo。
 
 ![首页](/pic.gif)
@@ -57,3 +57,4 @@ npm config set sass_binary_site http://cdn.npm.taobao.org/dist/node-sass -g
 或
 yarn config set sass_binary_site http://cdn.npm.taobao.org/dist/node-sass -g
 ```
+
