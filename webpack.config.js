@@ -54,7 +54,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new htmlWebpackPlugin({
-            title: 'react-redux-todolist',
+            title: 'React-redux-todolist-demo',
             template: path.resolve(TEM_PATH, 'index.html'),
             filename: 'index.html',
             inject: 'body'
