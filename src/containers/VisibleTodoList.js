@@ -26,7 +26,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = {
     onTodoClick: toggleTodo,
-    dleTodoClick: deleteTodo
+    delTodoClick: deleteTodo
 };
 
 const VisibleTodoList = connect(mapStateToProps, mapDispatchToProps)(TodoList);
