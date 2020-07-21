@@ -3,11 +3,11 @@
 探索 React + React-redux 开发 demo。
 [详细说明](http://cn.redux.js.org/docs/basics/UsageWithReact.html)
 
-![效果](/static/img/pic.gif)
+![效果](/src/static/img/pic.gif)
 
 ### 组件结构说明
 
-![项目结构图](/static/img/结构说明.png)
+![项目结构图](/src/static/img/结构说明.png)
 
 | ---            |          展示组件          | 容器组件                           |
 | -------------- | :------------------------: | ---------------------------------- |
