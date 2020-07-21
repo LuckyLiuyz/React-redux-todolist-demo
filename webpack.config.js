@@ -22,6 +22,7 @@ module.exports = {
         extensions: [".js", ".json", ".jsx", ".css", ".scss"],
     },
     devServer: {
+        open: true,
         inline: true, //实时刷新
         port: 3000,
     },

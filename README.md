@@ -1,8 +1,20 @@
-
 # React-redux-todolist-demo
-探索 React + React-redux 开发 demo。
 
-![首页](/pic.gif)
+探索 React + React-redux 开发 demo。
+[详细说明](http://cn.redux.js.org/docs/basics/UsageWithReact.html)
+
+![效果](/pic.gif)
+
+### 组件结构说明
+
+| 表头           |            表头            |
+| -------------- | :------------------------: |
+| 展示组件       |          容器组件          |
+| 作用           | 描述如何展现（骨架、样式） | 描述如何运行（数据获取、状态更新） |
+| 直接使用 Redux |             否             | 是 |
+| 数据来源       |           props            | 监听 Redux state |
+| 数据修改       |   从 props 调用回调函数    | 向 Redux 派发 actions |
+| 调用方式       |            手动            | 通常由 React Redux 生成 |
 
 ### 如何执行
 
@@ -57,4 +69,3 @@ npm config set sass_binary_site http://cdn.npm.taobao.org/dist/node-sass -g
 或
 yarn config set sass_binary_site http://cdn.npm.taobao.org/dist/node-sass -g
 ```
-
